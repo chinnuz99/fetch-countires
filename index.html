@@ -17,7 +17,7 @@
    <div class="container mt-5">
         <div class="row">
             <div class="col-4"></div>
-            <div class="col-4">
+            <div class="col-4 int">
 
                 <p class="fs-3" style="color: rgb(116, 14, 156)"><b>Search Country By Name</b></p>
                 <input type="text" placeholder="Enter Country Name" style="color: black; width: 150px; height: 30px;" id="country">
@@ -48,13 +48,13 @@
         let html_data = `<div class="card" style="width: 18rem;">
   <img src="${flag}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Name:${name}</h5>
-    <p class="card-text">Capital:${capital}</p>
-    <p class="card-text">Region:${region}</p>
-    <p class="card-text">Population:${population}</p>
-    <p class="card-text">Area:${area}</p>
-    <p class="card-text">Currency name:${cu_name}</p>
-    <p class="card-text">Symbol:${symbol}</p>
+   <h5 class="name card-title">Name:${name}</h5>
+    <p class="cap card-text">Capital:${capital}</p>
+    <p class="reg card-text">Region:${region}</p>
+    <p class="pop card-text">Population:${population}</p>
+    <p class="area card-text">Area:${area}</p>
+    <p class="cu card-text">Currency name:${cu_name}</p>
+    <p class="sym card-text">Symbol:${symbol}</p>
 
    </div>
 </div>`
